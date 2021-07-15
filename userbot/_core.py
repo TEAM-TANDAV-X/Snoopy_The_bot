@@ -11,7 +11,7 @@ from userbot import bot as deadlybot
 
 DELETE_TIMEOUT = 5
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "deadly User"
-deadly_logo =  "./OPSAMEER/Tandav_X_Bot_logo.jpg"
+deadly_logo =  "./OPSAMEER/deadlybot_logo.jpg"
 opsameer = deadlybot.uid
 deadly = f"[{DEFAULTUSER}](tg://user?id={opsameer})"
 
