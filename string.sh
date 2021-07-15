@@ -2,7 +2,7 @@
 
 
 echo """
-                      © LEGENDRY_AF_DEADLYBOT™
+                      © LEGENDRY_AF_TANDAVBOT™
            
 """
 

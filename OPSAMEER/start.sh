@@ -2,7 +2,7 @@
 
 echo """
              
-                       LEGENDRY AF DEADLYBOT!!
+                       LEGENDRY AF TANDAVBOT!!
                                           @deadly_userbot
 """
 

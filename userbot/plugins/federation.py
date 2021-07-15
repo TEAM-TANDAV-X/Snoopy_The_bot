@@ -428,7 +428,7 @@ async def _(event):
             continue
         await event.client.send_message(chat, f"/joinfed {fed}")
         await asyncio.sleep(3)
-        await event.client.send_message(chat, f"/fban {FBAN} {REASON} \n\n#SUPERFBAN_BY_DEADLYBOT")
+        await event.client.send_message(chat, f"/fban {FBAN} {REASON} \n\n#SUPERFBAN_BY_TANDAVBOT")
         await asyncio.sleep(3)
     await event.edit(f"SuperFBan Completed. Affected {len(fedList) - exCount} feds by [{DEFAULTUSER}](tg://user?id={tandavbot}) 😈")
 
@@ -502,7 +502,7 @@ async def _(event):
     for fed in fedList:
         await event.client.send_message(chat, f"/joinfed {fed}")
         await asyncio.sleep(3)
-        await event.client.send_message(chat, f"/unfban {FBAN} \n\n#SUPERUNFBAN_BY_DEADLYBOT")
+        await event.client.send_message(chat, f"/unfban {FBAN} \n\n#SUPERUNFBAN_BY_TANDAVBOT")
         await asyncio.sleep(3)
     await event.edit(f"SuperUnFBan Completed. Affected {len(fedList)} feds by [{DEFAULTUSER}](tg://user?id={tandavbot}) ⚡")
     
