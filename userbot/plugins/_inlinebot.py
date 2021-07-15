@@ -110,7 +110,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         page = int(event.data_match.group(1).decode("UTF-8"))
         veriler = button(page, CMD_HELP)
         await event.edit(
-            f"**Lᴇɢᴇɴʀʏ Aғ** [DᴇᴀᴅʟʏBᴏt](https://t.me/DEADLY_USERBOT) __Wᴏʀᴋɪɴɢ...__\n\n**Nᴜᴍʙᴇʀ Oғ Cᴍɴᴅs Iɴsᴛᴀʟʟᴇᴅ :** `397`\n**page:** {page + 1}/{veriler[0]}",
+            f"**Lᴇɢᴇɴʀʏ Aғ** [DᴇᴀᴅʟʏBᴏt](https://t.me/TANDAV_USERBOT_SUPPORT) __Wᴏʀᴋɪɴɢ...__\n\n**Nᴜᴍʙᴇʀ Oғ Cᴍɴᴅs Iɴsᴛᴀʟʟᴇᴅ :** `397`\n**page:** {page + 1}/{veriler[0]}",
             buttons=veriler[1],
             link_preview=False,
         )
@@ -119,7 +119,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def on_plug_in_callback_query_handler(event):
         if event.query.user_id == bot.uid:
             await delete_mafia(event,
-              "⚜️ DᴇᴀᴅʟʏBᴏᴛ Mᴇɴᴜ Pʀᴏᴠɪᴅᴇʀ Is Cʟᴏsᴇᴅ ⚜️\n\n         **[© DᴇᴀᴅʟʏBᴏᴛ ™](t.me/DEADLY_USERBOT)**", 5, link_preview=False
+              "⚜️ DᴇᴀᴅʟʏBᴏᴛ Mᴇɴᴜ Pʀᴏᴠɪᴅᴇʀ Is Cʟᴏsᴇᴅ ⚜️\n\n         **[© DᴇᴀᴅʟʏBᴏᴛ ™](t.me/TANDAV_USERBOT_SUPPORT)**", 5, link_preview=False
             )
         else:
             deadly_alert = "Aᴘɴᴀ Kʜᴜᴅᴋᴀ Bᴏᴛ Bɴᴀ Yʀ ᴍᴇʀᴀ Usᴇ ᴍᴛ Kʀ © DᴇᴀᴅʟʏBᴏᴛ ™"
