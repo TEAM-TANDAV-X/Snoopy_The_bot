@@ -11,7 +11,7 @@ from userbot import bot as deadlybot
 
 DELETE_TIMEOUT = 5
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "deadly User"
-deadly_logo =  "./OPSAMEER/DeadlyBot_logo.jpg"
+deadly_logo =  "./OPSAMEER/Tandav_X_Bot_logo.jpg"
 opsameer = deadlybot.uid
 deadly = f"[{DEFAULTUSER}](tg://user?id={opsameer})"
 
@@ -71,7 +71,7 @@ async def install(event):
                             a = "__Installing...__"
                             b = 1
                         await event.edit(a)
-                    return await event.edit(f"✅ **Installed module** :- `{shortname}` \n✨ BY :- {deadly}\n\n{string}\n\n        ⚡ **[LEGENDARY AF DeadlyBot](t.me/deadly_userbot)** ⚡", link_preview=False)
+                    return await event.edit(f"✅ **Installed module** :- `{shortname}` \n✨ BY :- {deadly}\n\n{string}\n\n        ⚡ **[LEGENDARY AF Tandav_X_Bot](t.me/deadly_userbot)** ⚡", link_preview=False)
                 return await event.edit(f"Installed module `{os.path.basename(downloaded_file_name)}`")
             else:
                 os.remove(downloaded_file_name)

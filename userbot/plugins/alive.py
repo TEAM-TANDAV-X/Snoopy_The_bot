@@ -1,5 +1,5 @@
 # for Deadly Bot
-# ONLY for DeadlyBot
+# ONLY for Tandav_X_Bot
 # EDITED BY - @SAMEER_795 (SAMEER)
 # KANGERS STAY AWAY
 # JISNE KANG KIYA USKI MA CHOD DI JAYEGI

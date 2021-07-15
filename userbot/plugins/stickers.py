@@ -38,7 +38,7 @@ KANGING_STR = [
     "Mr.Steal Your Sticker is stealing this sticker... ",
 ]
 
-telename = "DeadlyBot"
+telename = "Tandav_X_Bot"
 
 
 @bot.on(admin_cmd(outgoing=True, pattern="kang"))
@@ -106,7 +106,7 @@ async def kang(args):
                 # pack
                 emoji = splat[1]
 
-        packname = f"a{user.id}_by_DeadlyBot_{pack}"
+        packname = f"a{user.id}_by_Tandav_X_Bot_{pack}"
         packnick = (
             f"{telename} Vol.{pack}"
             if telename

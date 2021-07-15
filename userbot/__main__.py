@@ -36,9 +36,9 @@ else:
             api_hash=Var.API_HASH
         ).start(bot_token=Var.TG_BOT_TOKEN_BF_HER)
         print("Initialisation finished with no errors")
-        print("Starting DeadlyBot")
+        print("Starting Tandav_X_Bot")
         bot.loop.run_until_complete(add_bot(Var.TG_BOT_USER_NAME_BF_HER))
-        print("DeadlyBot Startup Completed")
+        print("Tandav_X_Bot Startup Completed")
     else:
         bot.start()
 

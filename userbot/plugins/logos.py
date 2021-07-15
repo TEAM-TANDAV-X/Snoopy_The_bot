@@ -58,7 +58,7 @@ async def lg1(deadlyevent):
     draw.text(
         (w_, h_), text, font=font, fill="white", stroke_width=strik, stroke_fill="black"
     )
-    file_name = "DeadlyBot.png"
+    file_name = "Tandav_X_Bot.png"
     img.save(file_name, "png")
     await bot.send_file(
         deadlyevent.chat_id,
