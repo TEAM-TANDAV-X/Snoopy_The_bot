@@ -110,7 +110,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         page = int(event.data_match.group(1).decode("UTF-8"))
         veriler = button(page, CMD_HELP)
         await event.edit(
-            f"**Lᴇɢᴇɴʀʏ Aғ** [DᴇᴀᴅʟʏBᴏt](https://t.me/TANDAV_USERBOT_SUPPORT) __Wᴏʀᴋɪɴɢ...__\n\n**Nᴜᴍʙᴇʀ Oғ Cᴍɴᴅs Iɴsᴛᴀʟʟᴇᴅ :** `397`\n**page:** {page + 1}/{veriler[0]}",
+            f"**Lᴇɢᴇɴʀʏ Aғ** [TᴀɴᴅᴀᴠBᴏᴛ](https://t.me/TANDAV_USERBOT_SUPPORT) __Wᴏʀᴋɪɴɢ...__\n\n**Nᴜᴍʙᴇʀ Oғ Cᴍɴᴅs Iɴsᴛᴀʟʟᴇᴅ :** `397`\n**page:** {page + 1}/{veriler[0]}",
             buttons=veriler[1],
             link_preview=False,
         )
