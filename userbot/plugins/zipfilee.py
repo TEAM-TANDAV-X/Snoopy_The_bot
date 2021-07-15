@@ -3,7 +3,7 @@ import os
 import asyncio
 
 from userbot import CmdHelp
-from deadlybot.utils import admin_cmd, sudo_cmd, edit_or_reply
+from tandavbot.utils import admin_cmd, sudo_cmd, edit_or_reply
 from userbot import bot as mafiabot
 
 

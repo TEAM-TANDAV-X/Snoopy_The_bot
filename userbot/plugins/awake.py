@@ -11,7 +11,7 @@
 import time
 
 from userbot import ALIVE_NAME, StartTime, deadlyversion
-from deadlybot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from tandavbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 ludosudo = Config.SUDO_USERS
 

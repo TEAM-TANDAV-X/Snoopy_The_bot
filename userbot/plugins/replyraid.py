@@ -1,7 +1,7 @@
 import asyncio
 import random
 from . import deadlydef
-from deadlybot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from tandavbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 from userbot.cmdhelp import CmdHelp
 
 que = {}

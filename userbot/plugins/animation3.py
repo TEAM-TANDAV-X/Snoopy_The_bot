@@ -1,6 +1,6 @@
 import asyncio
 from collections import deque
-from deadlybot.utils import admin_cmd, sudo_cmd, edit_or_reply
+from tandavbot.utils import admin_cmd, sudo_cmd, edit_or_reply
 from userbot.cmdhelp import CmdHelp
 
 
@@ -135,7 +135,7 @@ async def ammastar(savagebotstar):
       
         await asyncio.sleep(animation_interval)
         
-        await deadlybotstar.edit(animation_chars[i % 11])
+        await tandavbotstar.edit(animation_chars[i % 11])
     
         
 @bot.on(admin_cmd(pattern=r"lmoon", outgoing=True))

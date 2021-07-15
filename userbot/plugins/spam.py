@@ -11,9 +11,9 @@ import os
 from telethon import functions, types
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 
-from deadlybot.utils import admin_cmd, sudo_cmd, edit_or_reply
+from tandavbot.utils import admin_cmd, sudo_cmd, edit_or_reply
 from userbot.cmdhelp import CmdHelp
-from deadlybot.Config import Config
+from tandavbot.Config import Config
 
 LOGGER = Config.PLUGIN_CHANNEL
 SUDO_WALA = Config.SUDO_USERS
@@ -38,9 +38,9 @@ async def spammer(e):
 async def bigspam(deadly):
     if not deadly.text[0].isalpha() and deadly.text[0] not in ("/", "#", "@", "!"):
         deadly_msg = deadly.text
-        deadlybot_count = int(deadly_msg[9:13])
+        tandavbot_count = int(deadly_msg[9:13])
         deadly_spam = str(deadly.text[13:])
-        for i in range(1, deadlybot_count):
+        for i in range(1, tandavbot_count):
             await deadly.respond(deadly_spam)
         await deadly.delete()
         if LOGGER:
@@ -102,5 +102,5 @@ CmdHelp("spam").add_command(
 ).add_command(
   "dspam", "<delay> <spam count> <text>", "Sends the text 'X' number of times in 'Y' seconds of delay", ".dspam 5 100 Hello"
 ).add_command(
-  "bigspam", "<count> <text>", "Sends the text 'X' number of times. This what deadlybot iz known for. The Best BigSpam Ever", ".bigspam 5000 Hello"
+  "bigspam", "<count> <text>", "Sends the text 'X' number of times. This what tandavbot iz known for. The Best BigSpam Ever", ".bigspam 5000 Hello"
 ).add()

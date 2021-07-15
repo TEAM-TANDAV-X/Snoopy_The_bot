@@ -66,13 +66,13 @@ def load_module(shortname):
         sys.modules["uniborg.util"] = userbot.utils
         mod.Config = Config
         mod.borg = bot
-        mod.deadlybot = bot
+        mod.tandavbot = bot
         mod.edit_or_reply = edit_or_reply
         mod.delete_deadly = delete_deadly
         mod.media_type = media_type
-        # support for deadlybot originals
-        sys.modules["deadlybot.utils"] = userbot.utils
-        sys.modules["deadlybot"] = userbot
+        # support for tandavbot originals
+        sys.modules["tandavbot.utils"] = userbot.utils
+        sys.modules["tandavbot"] = userbot
         # support for paperplaneextended
         sys.modules["userbot.events"] = userbot.utils
         spec.loader.exec_module(mod)

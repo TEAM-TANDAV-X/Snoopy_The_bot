@@ -31,7 +31,7 @@ from telethon.tl.types import (
 
 from userbot import *
 from userbot.plugins.sql_helper.mute_sql import is_muted, mute, unmute
-from deadlybot.utils import *
+from tandavbot.utils import *
 from userbot.cmdhelp import CmdHelp
 
 # =================== CONSTANT ===================
@@ -148,7 +148,7 @@ async def promote(promt):
         await promt.client(EditAdminRequest(promt.chat_id, user.id, new_rights, rank))
         await savagebotevent.edit("Hɴ Kʀ Dɪʏᴀ Pʀᴏᴍᴏᴛᴇ..Cʜʟ ᴀʙ Dᴀᴀʀᴜ Pɪʟᴡᴀ😂😉")
     except BadRequestError:
-        await deadlybotevent.edit(NO_PERM)
+        await tandavbotevent.edit(NO_PERM)
         return
     if BOTLOG:
         await promt.client.send_message(

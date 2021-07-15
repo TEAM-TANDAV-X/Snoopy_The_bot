@@ -11,7 +11,7 @@ import asyncio
 import random
 from telethon import events
 from userbot import ALIVE_NAME, deadlyversion
-from deadlybot.utils import admin_cmd, sudo_cmd
+from tandavbot.utils import admin_cmd, sudo_cmd
 from telethon.tl.types import ChannelParticipantsAdmins
 from userbot.cmdhelp import CmdHelp
 

@@ -1,5 +1,5 @@
 from userbot import ALIVE_NAME, CMD_HELP
-from deadlybot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from tandavbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 from userbot.cmdhelp import CmdHelp
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Deadly User"
@@ -271,7 +271,7 @@ L = (
     "╬═╬ \n"
     "╬═╬ \n"
     "╬═╬ \n"
-    "╬═╬ deadlybot, My Friend :D \n"
+    "╬═╬ tandavbot, My Friend :D \n"
     "╬═╬☻/ \n"
     "╬═╬/▌ \n"
     "╬═╬/ \\n"
@@ -526,12 +526,12 @@ async def bluedevildog(dog):
     await edit_or_reply(dog, J)
 
 
-@bot.on(admin_cmd(pattern=r"deadlybot$"))
-@bot.on(sudo_cmd(pattern="deadlybot$", allow_sudo=True))
-async def bluedevildeadlybot(deadlyboto):
+@bot.on(admin_cmd(pattern=r"tandavbot$"))
+@bot.on(sudo_cmd(pattern="tandavbot$", allow_sudo=True))
+async def bluedeviltandavbot(tandavboto):
     if savageboto.fwd_from:
         return
-    await edit_or_reply(deadlyboto, K)
+    await edit_or_reply(tandavboto, K)
 
 
 @bot.on(admin_cmd(pattern=r"hmf$"))
@@ -617,7 +617,7 @@ CmdHelp("arts").add_command(
 ).add_command(
   'dog', None, 'Use and see'
 ).add_command(
-  'deadlybot', None, 'Use and see'
+  'tandavbot', None, 'Use and see'
 ).add_command(
   'hmf', None, 'Use and see'
 ).add_command(

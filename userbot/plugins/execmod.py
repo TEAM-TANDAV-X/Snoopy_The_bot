@@ -5,7 +5,7 @@ import time
 from asyncio import create_subprocess_exec as asyncrunapp
 from asyncio.subprocess import PIPE as asyncPIPE
 
-from deadlybot.utils import admin_cmd
+from tandavbot.utils import admin_cmd
 from userbot.cmdhelp import CmdHelp
 
 if not os.path.isdir("./SAVED"):
@@ -78,7 +78,7 @@ async def _(event):
     if event.reply_to_msg_id:
         event.reply_to_msg_id
     time.time() + PROCESS_RUN_TIME
-    process = await asyncio.create_subprocess_deadlybot(
+    process = await asyncio.create_subprocess_tandavbot(
         cmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
     )
     stdout, stderr = await process.communicate()
@@ -114,7 +114,7 @@ async def _(event):
     if event.reply_to_msg_id:
         event.reply_to_msg_id
     time.time() + PROCESS_RUN_TIME
-    process = await asyncio.create_subprocess_deadlybot(
+    process = await asyncio.create_subprocess_tandavbot(
         cmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
     )
     stdout, stderr = await process.communicate()

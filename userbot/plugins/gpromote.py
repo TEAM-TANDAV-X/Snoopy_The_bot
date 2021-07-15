@@ -20,8 +20,8 @@ from telethon.tl.types import (ChannelParticipantsAdmins,
                                    ChatBannedRights,
                                      MessageEntityMentionName,
                                        MessageMediaPhoto)
-from deadlybot.utils import register, errors_handler
-from deadlybot.utils import admin_cmd
+from tandavbot.utils import register, errors_handler
+from tandavbot.utils import admin_cmd
 from userbot import bot as borg
 from userbot.cmdhelp import CmdHelp
 

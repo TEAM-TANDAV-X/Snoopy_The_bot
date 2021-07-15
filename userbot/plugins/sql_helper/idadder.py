@@ -1,6 +1,6 @@
 from sqlalchemy import Column, String
 
-from deadlybot.plugins.sql_helper import BASE, SESSION
+from tandavbot.plugins.sql_helper import BASE, SESSION
 
 
 class Moidata(BASE):

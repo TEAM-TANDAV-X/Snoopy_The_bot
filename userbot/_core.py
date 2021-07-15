@@ -5,14 +5,14 @@ from pathlib import Path
 from telethon import events
 from telethon import functions, types
 from telethon.tl.types import InputMessagesFilterDocument
-from deadlybot.utils import *
+from tandavbot.utils import *
 from userbot import *
-from userbot import bot as deadlybot
+from userbot import bot as tandavbot
 
 DELETE_TIMEOUT = 5
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "deadly User"
-deadly_logo =  "./OPSAMEER/deadlybot_logo.jpg"
-opsameer = deadlybot.uid
+deadly_logo =  "./OPSAMEER/tandavbot_logo.jpg"
+opsameer = tandavbot.uid
 deadly = f"[{DEFAULTUSER}](tg://user?id={opsameer})"
 
 @bot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)", outgoing=True))
@@ -39,8 +39,8 @@ async def send(event):
     else:
         await edit_or_reply(event, "File not found..... Kek")
 
-@deadlybot.on(admin_cmd(pattern="install$", outgoing=True))
-@deadlybot.on(sudo_cmd(pattern="install$", allow_sudo=True))
+@tandavbot.on(admin_cmd(pattern="install$", outgoing=True))
+@tandavbot.on(sudo_cmd(pattern="install$", allow_sudo=True))
 async def install(event):
     if event.fwd_from:
         return
@@ -80,8 +80,8 @@ async def install(event):
             await event.edit(f"**Failed to Install** \n`Error`\n{str(e)}")
             return os.remove(downloaded_file_name)
     
-@deadlybot.on(admin_cmd(pattern=r"uninstall (?P<shortname>\w+)", outgoing=True))
-@deadlybot.on(sudo_cmd(pattern=r"uninstall (?P<shortname>\w+)", allow_sudo=True))
+@tandavbot.on(admin_cmd(pattern=r"uninstall (?P<shortname>\w+)", outgoing=True))
+@tandavbot.on(sudo_cmd(pattern=r"uninstall (?P<shortname>\w+)", allow_sudo=True))
 async def uninstall(opsameer):
     if opsameer.fwd_from:
         return
@@ -94,8 +94,8 @@ async def uninstall(opsameer):
     except OSError as e:
         await opsameer.edit("Error: %s : %s" % (dir_path, e.strerror))
 
-@deadlybot.on(admin_cmd(pattern=r"unload (?P<shortname>\w+)$"))
-@deadlybot.on(sudo_cmd(pattern=r"upload (?P<shortname>\w+)$", allow_sudo=True))
+@tandavbot.on(admin_cmd(pattern=r"unload (?P<shortname>\w+)$"))
+@tandavbot.on(sudo_cmd(pattern=r"upload (?P<shortname>\w+)$", allow_sudo=True))
 async def unload(event):
     if event.fwd_from:
         return
@@ -111,8 +111,8 @@ async def unload(event):
         )
 
 
-@deadlybot.on(admin_cmd(pattern=r"load (?P<shortname>\w+)$"))
-@deadlybot.on(sudo_cmd(pattern=r"load (?P<shortname>\w+)$", allow_sudo=True))
+@tandavbot.on(admin_cmd(pattern=r"load (?P<shortname>\w+)$"))
+@tandavbot.on(sudo_cmd(pattern=r"load (?P<shortname>\w+)$", allow_sudo=True))
 async def load(event):
     if event.fwd_from:
         return
@@ -140,5 +140,5 @@ CmdHelp("core").add_command(
 ).add_command(
   "send", "<file name>", "Sends the given file from your userbot server, if any.", "send alive"
 ).add_command(
-  "cmds", None, "Gives out the list of modules in deadlybot."
+  "cmds", None, "Gives out the list of modules in tandavbot."
 ).add()

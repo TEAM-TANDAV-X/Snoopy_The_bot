@@ -3,7 +3,7 @@ import asyncio
 from collections import deque
 
 from userbot import CMD_HELP
-from deadlybot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from tandavbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 from userbot.cmdhelp import CmdHelp
 
 
@@ -145,7 +145,7 @@ async def _(event):
 
 import asyncio
 
-from deadlybot.utils import admin_cmd
+from tandavbot.utils import admin_cmd
 
 
 @bot.on(admin_cmd(pattern=f"lovestory", outgoing=True))

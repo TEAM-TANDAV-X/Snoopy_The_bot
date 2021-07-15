@@ -9,7 +9,7 @@ from telethon.tl.functions.channels import JoinChannelRequest
 
 from userbot import *
 from userbot.cmdhelp import *
-from deadlybot.utils import *
+from tandavbot.utils import *
 from userbot.Config import Config
 
 deadly_row = Config.BUTTONS_IN_HELP

@@ -5,7 +5,7 @@ import urllib
 import requests
 
 from userbot import *
-from deadlybot.utils import *
+from tandavbot.utils import *
 from userbot.cmdhelp import CmdHelp
 
 @bot.on(admin_cmd("boobs$"))

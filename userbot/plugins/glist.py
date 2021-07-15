@@ -3,7 +3,7 @@ import base64
 import html
 from datetime import datetime
 from userbot import bot, CMD_HELP, ALIVE_NAME
-from deadlybot.utils import admin_cmd, sudo_cmd, edit_or_reply
+from tandavbot.utils import admin_cmd, sudo_cmd, edit_or_reply
 from telethon import events
 from telethon.errors import BadRequestError
 from telethon.tl.types import Channel
@@ -90,7 +90,7 @@ async def mafiagkick(event):
     count = 0
     deadlysameer = len(him)
     if deadlysameer == 0:
-        await deadlybot.edit("`you are not admin of atleast one group` ")
+        await tandavbot.edit("`you are not admin of atleast one group` ")
         return
     await mafiabot.edit(
         f"`Bahot bol rahe ho beta gaand parr laat kha `[{user.first_name}](tg://user?id={user.id}) `beta aur nikkal {len(him)} groups se?`"
@@ -108,7 +108,7 @@ async def mafiagkick(event):
     end = datetime.now()
     deadlytaken = (end - start).seconds
     if reason:
-        await deadlybot.edit(
+        await tandavbot.edit(
             f"[{user.first_name}](tg://user?id={user.id}) `was gkicked in {count} groups in {deadlytaken} seconds`!!\n**Reason :** `{reason}`"
         )
     else:

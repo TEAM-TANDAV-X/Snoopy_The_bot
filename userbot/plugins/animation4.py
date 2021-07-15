@@ -4,7 +4,7 @@ from telethon.tl.functions.users import GetFullUserRequest
 from userbot import *
 from userbot.cmdhelp import CmdHelp
 from userbot import ALIVE_NAME, CMD_HELP
-from deadlybot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from tandavbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "deadly user"
 
