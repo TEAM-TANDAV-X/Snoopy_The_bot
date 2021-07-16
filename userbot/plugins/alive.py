@@ -31,16 +31,16 @@ edit_time = 5
 file1 = Config.ALIVE_PIC
 """ =======================CONSTANTS====================== """
 
-pm_caption = "__                       **😎🔥 #ᗪᗴᗩᗪᒪY_Oᑎ_ᖴIᖇᗴ 😎🔥**  __\n\n"
+pm_caption = "__                       **😎🔥 #TANDAV_X__Oᑎ_ᖴIᖇᗴ 😎🔥**  __\n\n"
 
 pm_caption += f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**      『{DEFAULTUSER}』**\n\n"
 pm_caption += "✘ ᗩᗷOᑌT ᗰY ՏYՏTᗴᗰ ✘\n\n"
 pm_caption += "➠ TᗴᒪᗴTᕼOᑎ   ➣ 1.22.0\n"                 
-pm_caption += "➠ Tᗴᗩᗰ ᘜᖇOᑌᑭ ➣ [𝐃𝐄𝐀𝐃𝐋𝐘](https://t.me/deadly_fighters)\n"
+pm_caption += "➠ Tᗴᗩᗰ ᘜᖇOᑌᑭ ➣ [𝐃𝐄𝐀𝐃𝐋𝐘](https://t.me/TANDAV_X_FORCE)\n"
 pm_caption += "➠ ՏᑌᑭᑭOᖇT ᑕᕼᑎᑎᒪ ➣ [𝐉𝐎𝐈𝐍](https://t.me/TANDAV_USERBOT_CHANNEL)\n"
-pm_caption += "➠ ՏᑌᑭᑭOᖇT ᘜᖇᑭ ➣ [𝐉𝐎𝐈𝐍](https://t.me/deadly_userbot)\n"
+pm_caption += "➠ ՏᑌᑭᑭOᖇT ᘜᖇᑭ ➣ [𝐉𝐎𝐈𝐍](https://t.me/TANDAV_USERBOT_SUPPORT)\n"
 pm_caption += "➠ ᑕᖇᗴᗩTOᖇ ➣ [⚡𝐒𝐀𝐌𝐄𝐄𝐑⚡](t.me/sameer_795)\n\n" 
-pm_caption += "[🔥ᗪᗴᑭᒪOY ᗪᗴᗩᗪᒪY ᗷOT🔥](https://github.com/SAMEERPANTHI/DEADLY-OP-BOT)"
+pm_caption += "[🔥ᗪᗴᑭᒪOY TANDAV X ᗷOT🔥](https://github.com/SRIDHAR2021SIDDHARTH/TANDAV_X_USERBOT)"
                                                      
 # @command(outgoing=True, pattern="^.alive$")
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
