@@ -83,8 +83,8 @@ async def amireallyalive(alive):
         deadly_caption += f"┣•➳➠ `Tᴇʟᴇᴛʜᴏɴ:` `1.21.2` \n"
         deadly_caption += f"┣•➳➠ `Vᴇʀsɪᴏɴ:` `{deadlyversion}`\n"
         deadly_caption += f"┣•➳➠ `Sᴜᴅᴏ:` `{sudou}`\n"
-        deadly_caption += f"┣•➳➠ `Cʜᴀɴɴᴇʟ:` [Jᴏɪɴ](https://t.me/deadly_techy)\n"
-        deadly_caption += f"┣•➳➠ `Gʀᴏᴜᴘ:` [Jᴏɪɴ](https://t.me/deadly_userbot)\n"
+        deadly_caption += f"┣•➳➠ `Cʜᴀɴɴᴇʟ:` [Jᴏɪɴ](https://t.me/TANDAV_X_TEAM)\n"
+        deadly_caption += f"┣•➳➠ `Gʀᴏᴜᴘ:` [Jᴏɪɴ](https://t.me/TANDAV_USERBOT_SUPPORT)\n"
         deadly_caption += f"┣•➳➠ `Uᴘᴛɪᴍᴇ:`{uptime}`\n"
         deadly_caption += f"┗━━━━━━━━━━━━━━━━━━━\n"
         await alive.client.send_file(
@@ -98,8 +98,8 @@ async def amireallyalive(alive):
             f"┣•➳➠ `𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽:` `{version.__version__}` \n"
             f"┣•➳➠ `𝚅𝙴𝚁𝚂𝙸𝙾𝙽:` `{deadlyversion}`\n"
             f"┣•➳➠ `𝚂𝚄𝙳𝙾:` `{sudou}`\n"
-            f"┣•➳➠ `𝙲𝙷𝙰𝙽𝙽𝙴𝙻:` [ᴊᴏɪɴ](https://t.me/deadly_techy)\n"
-            f"┣•➳➠ `𝙶𝚁𝙾𝚄𝙿:` [ᴊᴏɪɴ](https://t.me/deadly_userbot)\n"
+            f"┣•➳➠ `𝙲𝙷𝙰𝙽𝙽𝙴𝙻:` [ᴊᴏɪɴ](https://t.me/TANDAV_X_TEAM)\n"
+            f"┣•➳➠ `𝙶𝚁𝙾𝚄𝙿:` [ᴊᴏɪɴ](https://t.me/TANDAV_USERBOT_SUPPORT)\n"
             f"┣•➳➠ `𝚄𝙿𝚃𝙸𝙼𝙴:`{uptime}\n`"
             f"┗━━━━━━━━━━━━━━━━━━━\n"
         )
