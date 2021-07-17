@@ -10,9 +10,9 @@ from userbot import ALIVE_NAME, BIO_MSG, CMD_HELP
 from tandavbot.utils import admin_cmd, edit_or_reply, sudo_cmd
 from userbot.cmdhelp import CmdHelp
 
-DEFAULTUSERBIO = str(BIO_MSG) if BIO_MSG else "LEGENDARY AF DEADLY BOT"
+DEFAULTUSERBIO = str(BIO_MSG) if BIO_MSG else "LEGENDARY AF TANDAV BOT"
 DEL_TIME_OUT = 60
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Deadly User"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Tandav User"
 
 
 @bot.on(admin_cmd(pattern="autoname"))  # pylint:disable=E0602
