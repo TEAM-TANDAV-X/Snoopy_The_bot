@@ -31,7 +31,7 @@ async def reply_id(event):
 
 DEFAULTUSER = ALIVE_NAME or "Deadly User"
 DEADLY_IMG = Config.ALIVE_PIC
-CUSTOM_ALIVE_TEXT = Config.ALIVE_MSG or "LEGENDRY_AF_TANDAVBOT"
+CUSTOM_ALIVE_TEXT = Config.ALIVE_MSG or "LEGENDRY_AF_SNOOPY"
 
 USERID = bot.uid
 
@@ -84,7 +84,7 @@ async def amireallyalive(alive):
         deadly_caption += f"┣•➳➠ `Vᴇʀsɪᴏɴ:` `{deadlyversion}`\n"
         deadly_caption += f"┣•➳➠ `Sᴜᴅᴏ:` `{sudou}`\n"
         deadly_caption += f"┣•➳➠ `Cʜᴀɴɴᴇʟ:` [Jᴏɪɴ](https://t.me/TANDAV_X_TEAM)\n"
-        deadly_caption += f"┣•➳➠ `Gʀᴏᴜᴘ:` [Jᴏɪɴ](https://t.me/TANDAV_USERBOT_SUPPORT)\n"
+        deadly_caption += f"┣•➳➠ `Gʀᴏᴜᴘ:` [Jᴏɪɴ](https://t.me/SnoopyUserbotSupport)\n"
         deadly_caption += f"┣•➳➠ `Uᴘᴛɪᴍᴇ:`{uptime}`\n"
         deadly_caption += f"┗━━━━━━━━━━━━━━━━━━━\n"
         await alive.client.send_file(
@@ -99,7 +99,7 @@ async def amireallyalive(alive):
             f"┣•➳➠ `𝚅𝙴𝚁𝚂𝙸𝙾𝙽:` `{deadlyversion}`\n"
             f"┣•➳➠ `𝚂𝚄𝙳𝙾:` `{sudou}`\n"
             f"┣•➳➠ `𝙲𝙷𝙰𝙽𝙽𝙴𝙻:` [ᴊᴏɪɴ](https://t.me/TANDAV_X_TEAM)\n"
-            f"┣•➳➠ `𝙶𝚁𝙾𝚄𝙿:` [ᴊᴏɪɴ](https://t.me/TANDAV_USERBOT_SUPPORT)\n"
+            f"┣•➳➠ `𝙶𝚁𝙾𝚄𝙿:` [ᴊᴏɪɴ](https://t.me/SnoopyUserbotSupport)\n"
             f"┣•➳➠ `𝚄𝙿𝚃𝙸𝙼𝙴:`{uptime}\n`"
             f"┗━━━━━━━━━━━━━━━━━━━\n"
         )
