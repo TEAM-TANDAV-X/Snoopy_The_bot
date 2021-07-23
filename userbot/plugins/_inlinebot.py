@@ -77,20 +77,20 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         elif event.text=='':
             result = builder.article(
                 "@MafiaBot_Support",
-                text="""**Hey! This is [Tᴀɴᴅᴀᴠ Bᴏᴛ](https://t.me/deadly_userbot) \nYou can know more about me from the links given below 👇**""",
+                text="""**Hey! This is [Tᴀɴᴅᴀᴠ Bᴏᴛ](https://t.me/TANDAV_USERBOT_SUPPORT) \nYou can know more about me from the links given below 👇**""",
                 buttons=[
                     [
-                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/deadly_techy"),
+                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/TANDAV_X_TEAM"),
                         custom.Button.url(
-                            "⚡ GROUP ⚡", "https://t.me/deadly_userbot"
+                            "⚡ GROUP ⚡", "https://t.me/TANDAV_USERBOT_SUPPORT"
                         ),
                     ],
                     [
                         custom.Button.url(
-                            "✨ REPO ✨", "https://t.me/deadly_userbot"),
+                            "✨ REPO ✨", "https://t.me/TANDAV_USERBOT_SUPPORT"),
                         custom.Button.url
                     (
-                            "🔰 TUTORIAL 🔰", "https://t.me/deadly_userbot"
+                            "🔰 TUTORIAL 🔰", "https://t.me/TANDAV_USERBOT_SUPPORT"
                     )
                     ],
                 ],
