@@ -1,1 +1,1 @@
-## REPO - https://github.com/sameerpanthi/TANDAV_X_BOT
+## REPO -https://github.com/TEAM-TANDAV-X/Snoopy_The_bot
