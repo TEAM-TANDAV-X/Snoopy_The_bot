@@ -31,16 +31,16 @@ edit_time = 5
 file1 = Config.ALIVE_PIC
 """ =======================CONSTANTS====================== """
 
-pm_caption = "__                       **😎🔥 #TANDAV_X__Oᑎ_ᖴIᖇᗴ 😎🔥**  __\n\n"
+pm_caption = "__                       **😎🔥 #SNOOPY_BOT__Oᑎ_ᖴIᖇᗴ 😎🔥**  __\n\n"
 
 pm_caption += f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**      『{DEFAULTUSER}』**\n\n"
 pm_caption += "✘ ᗩᗷOᑌT ᗰY ՏYՏTᗴᗰ ✘\n\n"
 pm_caption += "➠ TᗴᒪᗴTᕼOᑎ   ➣ 1.22.0\n"                 
-pm_caption += "➠ Tᗴᗩᗰ ᘜᖇOᑌᑭ ➣ [𝗧𝗔𝗡𝗗𝗔𝗩](https://t.me/TANDAV_X_FORCE)\n"
+pm_caption += "➠ Tᗴᗩᗰ ᘜᖇOᑌᑭ ➣ [𝗧𝗔𝗡𝗗𝗔𝗩](https://t.me/SnoopyUserbotSupport)\n"
 pm_caption += "➠ ՏᑌᑭᑭOᖇT ᑕᕼᑎᑎᒪ ➣ [𝐉𝐎𝐈𝐍](https://t.me/TANDAV_USERBOT_CHANNEL)\n"
 pm_caption += "➠ ՏᑌᑭᑭOᖇT ᘜᖇᑭ ➣ [𝐉𝐎𝐈𝐍](https://t.me/TANDAV_USERBOT_SUPPORT)\n"
 pm_caption += "➠ ᑕᖇᗴᗩTOᖇ ➣ [⚡𝙎𝙄𝘿𝘿𝙃𝘼𝙍𝙏𝙃⚡](t.me/TANDAV_X_MAHADEV_BAM_BHOLE)\n\n" 
-pm_caption += "[🔥ᗪᗴᑭᒪOY TANDAV X ᗷOT🔥](https://github.com/SRIDHAR2021SIDDHARTH/TANDAV_X_USERBOT)"
+pm_caption += "[🔥ᗪᗴᑭᒪOY SNOOPY ᗷOT🔥](https://github.com/TEAM-TANDAV-X/Snoopy_The_bot)"
                                                      
 # @command(outgoing=True, pattern="^.alive$")
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
